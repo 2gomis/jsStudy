@@ -43,4 +43,6 @@ let connetUserName;         // currentUserName
 let message = 'hellow';
 message = 12345;
 
-alert(message)
+alert(message);
+
+//8월 26일, 공부 예정 - 123123
