@@ -40,9 +40,49 @@ let connetUserName;         // currentUserName
 */
 
 //no error
+/*
 let message = 'hellow';
 message = 12345;
 
 alert(message);
 
 //8월 26일, 공부 예정 - 123123
+alert(1/0);
+alert(Infinity);
+alert("숫자가 아님"/2);
+alert("숫자 아님"/2+5);
+
+// # BigInt
+const bigInt1 = 123123123123123123123123;  //1.2312312312312312e+23
+const bigInt2 = 123123123123123123123123n; //123123123123123123123123
+
+alert(bigInt1);
+alert(bigInt2);
+
+
+// # 문자형1
+let str = 'hello';
+let str2 = "Single quotes are ok too"
+let phrase = `can embed another ${str}`
+
+alert(str);
+alert(str2)
+alert(phrase)
+
+
+// # 문자형2
+let name = "John"
+
+alert(`Hello, ${name}~~`)
+alert(`the result is ${1 + 2}`);
+alert("역 따옴표가 아닌 큰&작은 따음표는 ${} 사용 불가")
+*/
+
+// # 불린형
+// true : 긍정, false : 부정
+let nameFieldChecked = true;    //네, name field 가 확인되었습니다 (check)
+let ageFieldchecked = false;    //아니오 age field를 확인하지 않았습니다 (non check)
+
+let isGreater = 4 > 1;
+alert(isGreater);
+
