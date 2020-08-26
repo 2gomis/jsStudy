@@ -76,7 +76,7 @@ let name = "John"
 alert(`Hello, ${name}~~`)
 alert(`the result is ${1 + 2}`);
 alert("역 따옴표가 아닌 큰&작은 따음표는 ${} 사용 불가")
-*/
+
 
 // # 불린형
 // true : 긍정, false : 부정
@@ -86,3 +86,10 @@ let ageFieldchecked = false;    //아니오 age field를 확인하지 않았습�
 let isGreater = 4 > 1;
 alert(isGreater);
 
+
+let name = 'Ilya';
+
+alert(`hello, ${'name'}`);
+alert(`hello, ${name}`);
+alert(`hello, ${1}`);
+*/
