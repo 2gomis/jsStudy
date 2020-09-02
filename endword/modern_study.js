@@ -93,3 +93,56 @@ alert(`hello, ${'name'}`);
 alert(`hello, ${name}`);
 alert(`hello, ${1}`);
 */
+
+// # 9월 1일 공부
+/*
+// >> 입력필드 대화상자
+// result = prompt(title, [default]);
+
+
+// title : 사용자에게 보여줄 문구
+// default : 입력 필드의 초기값 (선택)
+// [...] : 선택값이라는 의미
+
+
+
+let age = prompt('나이를 입력하세요.','ex) 100');   // default 위치의 값
+alert(`당신의 나이는 ${age}입니다.`);               // ㄴ 이 ${age} 위치에 표시
+
+
+
+// 크롬 제외 ie를 포함한 브라우저에서의 prompt
+let ie = prompt('test');        // 입력 필드에 undefined
+let ie2 = prompt('test','');    // 입력 필드에 공백
+
+
+// >> 컨펌 대화상자
+//  result = confirm(question);
+//  질문, [확인] / [취소] 버튼이 있는 modal window
+//  [확인] 선택 시, true  / [취소] 선택 시, false 반환
+
+let isBoss = confirm('당신이 주인입니까?');
+alert(isBoss);
+
+
+// 과제 : 사용자에게 이름을 물어보고, 
+//       입력받은 이름을 그대로 출력하는 페이지
+
+let name = prompt('당신의 이름을 입력하세요.','여기에 입력');
+alert(`당신이 입력한 이름은 "${name}" 입니다`);
+
+let confirmName = confirm(`입력한 "${name}"가 올바른 이름인가요?`);
+alert(confirmName);
+*/
+
+// ----------------------------------------
+//        형 변환 (type convirsion)
+// ----------------------------------------
+//  >> 문자형(string)으로 변환
+let value = true;           // value에 boolean - true 저장
+alert(typeof value);        // value에 저장된 값의 형
+
+// typeof == 형식의 정보를 얻을 수 있는 연산자
+
+value = String(value);      // 'true' 텍스트 저장
+alert(typeof value);        // 'true' 의 형 = 
