@@ -133,7 +133,7 @@ alert(`당신이 입력한 이름은 "${name}" 입니다`);
 
 let confirmName = confirm(`입력한 "${name}"가 올바른 이름인가요?`);
 alert(confirmName);
-*/
+
 
 // ----------------------------------------
 //        형 변환 (type convirsion)
@@ -144,5 +144,42 @@ alert(typeof value);        // value에 저장된 값의 형
 
 // typeof == 형식의 정보를 얻을 수 있는 연산자
 
-value = String(value);      // 'true' 텍스트 저장
-alert(typeof value);        // 'true' 의 형 = 
+value = String(value);      // value에 'true' 텍스트 저장
+alert(typeof value);        // value에 저장된 값의 형
+
+
+//  >> 숫자형(Number)으로 변환
+수학과 관련된 함수 & 표현식에서 자동으로 이뤄짐
+
+
+alert('5'/'2');             // 문자를 자동으로 숫자로 변경해서 나눔
+alert(100 /'2');
+
+let str = '123';
+alert(typeof str);          // 문자 '123' 저장 > string
+
+let num = Number(str);      // 저장한 값을 숫자형으로 명시할 수 있음
+alert(typeof num);          // > number
+
+let num2 = Number('numb');    // 숫자형으로 변경
+alert(num2);                  // NaN ?
+
+
+alert(Number('     123      '));    // 123
+alert(Number('123z'));              // NaN
+alert(Number(false));               // 0
+alert(Number(null));                // 0?
+alert(Number(true));                // 1
+*/
+
+
+//  >> boolean형으로 변환
+// 논리 연산을 수행할 때 발생
+// 비어있는 값 (0, false, null, undefined)은 false
+
+alert( Boolean(1) );
+alert( Boolean(0) );
+
+alert( Boolean('empty') );
+alert( Boolean('') );
+alert( Boolean(undefined) );
